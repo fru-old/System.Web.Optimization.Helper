@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>System.Web.Optimization.Helper</id>
+        <version>0.1.2</version>
+        <authors>Florian Rüberg</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Test</description>
+        <summary />
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+        </dependencies>
+		<references>
+			<reference file="OptimizationHelper.dll" />
+			<reference file="OptimizationHelper.XML" />
+		</references>
+    </metadata>
+    <files>
+        <file src="OptimizationHelper\bin\Release\OptimizationHelper.dll" target="lib\net45\OptimizationHelper.dll" />
+        <file src="OptimizationHelper\bin\Release\OptimizationHelper.XML" target="lib\net45\OptimizationHelper.XML" />
+    </files>
+</package>

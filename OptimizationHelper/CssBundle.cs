@@ -27,6 +27,11 @@ public class StyleImagePathBundle : Bundle
         return path.Replace( applicationPath, virtualDir ).Replace( @"\", "/" );
     }
 
+    /// <summary>
+    /// Test
+    /// </summary>
+    /// <param name="virtualPaths"></param>
+    /// <returns></returns>
     public new Bundle Include( params string[] virtualPaths )
     {
         if ( HttpContext.Current.IsDebuggingEnabled )
